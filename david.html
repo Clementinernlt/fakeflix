@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <style>
+      body{
+        background-color: #181818;
+        font-size: 1.4rem;}
+    </style>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary-primary" style="background-color: #b0131b;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="fakeflix.html">
+          <img
+            src="fakeflix.png"
+            alt="Logo"
+            width="150"
+            height="85"
+            class="d-inline-block align-text-top"/>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="damien.html">Damien Chazelle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="david.html">David Fincher</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wes.html">Wes Anderson</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="card mx-auto p-5" style="width: 100vw;" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="david_fincher.jpg" class="img-fluid " alt="photo david fincher">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text"> David Fincher est un réalisateur, producteur et scénariste américain né en 1962 à Denver. Il est surtout connu pour ses films qui sont souvent sombres, psychologiques et provocateurs, et sont caractérisés par une esthétique cinématographique distinctive et des narrations complexes. Fincher a également travaillé avec Netflix pour la série "House of Cards". Il a été nommé aux Oscars à plusieurs reprises pour son travail de réalisateur et a remporté de nombreux prix pour ses films. Fincher est considéré comme l'un des réalisateurs les plus influents et innovants de sa génération.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-3 p-4">
+      
+      <div class="col">
+          <div class="card">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="boss.jpg" class="d-block w-100" alt="Homme à un bureau">
+                </div>
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="mecetmeuf.jpg" class="d-block w-100" alt="homme discutant avec une femme">
+                </div>
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="clown.jpg" class="d-block w-100" alt="homme face à un homme">
+                </div>
+            </div>
+              
+            </div>
+            <div class="card-body"> 
+                <h5 class="card-title">The Game - 1997</h5>
+                <a href="https://fr.wikipedia.org/wiki/The_Game_(film)" class="btn btn-secondary " tabindex="-1" role="button" aria-disabled="true">En savoir plus ...</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <img src="boom.jpg" class="d-block w-100" alt="homme et femme debout de dos">
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <img src="brad.jpg" class="d-block w-100" alt="homme torse nu">
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <img src="mecs.jpg" class="d-block w-100" alt="deux homme marchant">
+                    </div>
+              </div>
+            </div>
+            <div class="card-body"> 
+                <h5 class="card-title">Fight Club - 1999</h5>
+                <a href="https://fr.wikipedia.org/wiki/Fight_Club_(film)" class="btn btn-secondary " tabindex="-1" role="button" aria-disabled="true">En savoir plus ...</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col">
+        <div class="card">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="andrew.jpg" class="d-block w-100" alt="Andrew Garfild">
+                </div>
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="bgs.jpg" class="d-block w-100" alt="groupe de 4 personne devant un ordinateur">
+                </div>
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="pyj.jpg" class="d-block w-100" alt="Jesse en pyjama">
+                </div>
+              </div>
+          </div>
+          <div class="card-body"> 
+            <h5 class="card-title">The Social Network - 2010</h5>
+            <a href="https://fr.wikipedia.org/wiki/The_Social_Network" class="btn btn-secondary " tabindex="-1" role="button" aria-disabled="true">En savoir plus ...</a>
+          </div>
+        </div>
+    </div>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous">
+    </script>
+
+    </body>
+</html>
+

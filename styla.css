@@ -1,0 +1,95 @@
+
+.bouncing-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 900;
+  }
+  
+  .b, .i, .e1, .n1, .v, .e2, .n2, .u, .e3 {
+    position: relative;
+    color: blanchedalmond;
+    text-shadow: 0 3px rgb(253, 215, 157);
+  }
+  
+  .b {
+    animation: bounce 2s ease infinite;
+    -webkit-animation: bounce 2s ease infinite;
+  }
+  
+  .i {
+    animation: bounce 2s ease infinite .2s;
+    -webkit-animation: bounce 2s ease infinite .2s;
+  }
+  
+  .e1 {
+    animation: bounce 2s ease infinite .3s;
+    -webkit-animation: bounce 2s ease infinite .3s;
+  }
+  
+  .n1 {
+    animation: bounce 2s ease infinite .4s;
+    -webkit-animation: bounce 2s ease infinite .4s;
+  }
+  
+  .v {
+    animation: bounce 2s ease infinite .5s;
+    -webkit-animation: bounce 2s ease infinite .5s;
+  }
+  
+  .e2 {
+    animation: bounce 2s ease infinite .6s;
+   -webkit-animation: bounce 2s ease infinite .6s;
+  }
+  
+  .n2 {
+    animation: bounce 2s ease infinite .7s;
+    -webkit-animation: bounce 2s ease infinite .7s;
+  }
+  
+  .u {
+    animation: bounce 2s ease infinite .8s;
+    -webkit-animation: bounce 2s ease infinite .8s;
+  }
+
+  .e3 {
+    animation: bounce 2s ease infinite .9s;
+   -webkit-animation: bounce 2s ease infinite .9s;
+  }
+  
+   @keyframes bounce {
+          0%   { transform: scale(1,1) translateY(0); }
+          10%  { transform: scale(1.1,.9) translateY(0); }
+          30%  { transform: scale(.9,1.1)   translateY(-55px);}
+          50%  { transform: scale(1.05,.95) translateY(0); }
+          58%  { transform: scale(1,1) translateY(-7px); }
+          65%  { transform: scale(1,1) translateY(0);}
+          100% { transform: scale(1,1) translateY(0);}
+      }
+  
+  @-webkit-keyframes bounce {
+         0%   { transform: scale(1,1) translateY(0); }
+          10%  { transform: scale(1.1,.9) translateY(0); }
+          30%  { transform: scale(.9,1.1)   translateY(-55px);}
+          50%  { transform: scale(1.05,.95) translateY(0); }
+          58%  { transform: scale(1,1) translateY(-7px);}
+          65%  { transform: scale(1,1) translateY(0);}
+          100% { transform: scale(1,1) translateY(0);} 
+  }
+
+  @keyframes scale {
+    0% {transform: scaleX(1);}
+    25% {transform: scaleX(0.4);}
+    50% {transform: scaleX(1);}
+    75% {transform: scaleX(0.9);}
+    100% {transform: scaleX(1);}
+  }
+  
+  @-webkit-keyframes scale {
+     0% {transform: scaleX(1);}
+    25% {transform: scaleX(0.4);}
+    50% {transform: scaleX(1);}
+    75% {transform: scaleX(0.9);}
+    100% {transform: scaleX(1);}
+  }

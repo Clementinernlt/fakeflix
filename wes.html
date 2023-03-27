@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <style>
+      body{
+        background-color: #181818;
+        font-size: 1.4rem;}
+    </style>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary-primary" style="background-color: #b0131b;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="fakeflix.html">
+          <img
+            src="fakeflix.png"
+            alt="Logo"
+            width="150"
+            height="85"
+            class="d-inline-block align-text-top"/>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="damien.html">Damien Chazelle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="david.html">David Fincher</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wes.html">Wes Anderson</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="card mx-auto p-5" style="width: 100vw;" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="wes-ander.jpg" class="img-fluid " alt="photo Wes Anderson">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text"> Wes Anderson est un réalisateur, scénariste et producteur connu pour son style distinctif qui combine des éléments de comédie, de drame, de satire et de tragédie. Ses films sont souvent caractérisés par une palette de couleurs vives, une symétrie soigneusement mise en scène, une utilisation innovante de la musique et des dialogues rapides et stylisés. Il utilise également fréquemment des plans fixes, des zooms avant et arrière, et des mouvements de caméra lents pour créer une ambiance distincte et immersif. En somme, Wes Anderson est un réalisateur talentueux et reconnu pour son style unique et sa vision cinématographique.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-3 p-4">
+      
+      <div class="col">
+          <div class="card">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="jogo.jpg" class="d-block w-100" alt="4 personages attendant">
+                  </div>
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="table.jpg" class="d-block w-100" alt="groupe de 4 personne à une table">
+                  </div>
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="bureau.jpg" class="d-block w-100" alt="3 enfants assis à un bureau">
+                  </div>
+                </div>
+            </div>
+            <div class="card-body"> 
+              <h5 class="card-title">La Famille Tenenbaum - 2001</h5>
+              <a href="https://fr.wikipedia.org/wiki/La_Famille_Tenenbaum" class="btn btn-secondary " tabindex="-1" role="button" aria-disabled="true">En savoir plus ...</a>
+            </div>
+          </div>
+      </div>
+          
+      <div class="col">
+          <div class="card">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="hotel.jpg" class="d-block w-100" alt="Grand Budapest Hotel">
+                </div>
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="boites.jpg" class="d-block w-100" alt="homme discutant avec une femme dans des boites">
+                </div>
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="lobby.jpg" class="d-block w-100" alt="hommes debout">
+                </div>
+            </div>
+              
+            </div>
+            <div class="card-body"> 
+                <h5 class="card-title">Le Grand Budapest Hotel - 2014</h5>
+                <a href="https://fr.wikipedia.org/wiki/The_Grand_Budapest_Hotel" class="btn btn-secondary " tabindex="-1" role="button" aria-disabled="true">En savoir plus ...</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <img src="bureau.jpg" class="d-block w-100" alt="homme et 2 femmes autour d'un bureau">
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <img src="timmy.jpg" class="d-block w-100" alt="Timothé Chalamet">
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <img src="musique.jpg" class="d-block w-100" alt="un homme et une femme adossé à une machine à musique">
+                    </div>
+              </div>
+            </div>
+            <div class="card-body"> 
+                <h5 class="card-title">The French Dispatch - 2021</h5>
+                <a href="https://fr.wikipedia.org/wiki/The_French_Dispatch" class="btn btn-secondary " tabindex="-1" role="button" aria-disabled="true">En savoir plus ...</a>
+            </div>
+          </div>
+        
+        
+    </div>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous">
+    </script>
+
+    </body>
+</html>
+
